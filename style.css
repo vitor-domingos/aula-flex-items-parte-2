@@ -1,0 +1,54 @@
+.flex-0 {
+  /* flex-grow, flex-shrink, flex-basis */
+  flex: 0;
+}
+
+.flex-1 {
+  flex: 0 1 200px;
+}
+
+.flex {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.order .item.item5{
+order: -1;
+}
+
+.order .item.item4 {
+order: 1;
+}
+
+.order .item.item1{
+order:2
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.align-self .item5 {
+  align-self: auto;
+}
+
+.flex-end .item4 {
+  align-self: flex-start;
+}
+
+.align-self.start .item3 {
+  align-self: flex-start;
+}
+
+.align-self.end .item3 {
+  align-self: flex-end;
+}
+
+.align-self.center .item3 {
+  align-self: center;
+}
+
+.align-self.strecht .item3 {
+  align-self: stretch;
+}
