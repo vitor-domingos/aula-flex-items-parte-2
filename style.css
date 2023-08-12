@@ -13,15 +13,15 @@
   flex-basis: 0;
 }
 
-.order .item.item5{
+.order .item5{
 order: -1;
 }
 
-.order .item.item4 {
+.order .item4 {
 order: 1;
 }
 
-.order .item.item1{
+.order .item1{
 order:2
 }
 
@@ -29,12 +29,8 @@ order:2
   flex-wrap: wrap;
 }
 
-.align-self .item5 {
+.align-self.auto .item5 {
   align-self: auto;
-}
-
-.flex-end .item4 {
-  align-self: flex-start;
 }
 
 .align-self.start .item3 {
